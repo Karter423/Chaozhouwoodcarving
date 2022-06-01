@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  /* 100%窗口高度 */
+  /* margin-top:10px; */
+  height: 500px;
+  /* 弹性布局 居中 */
+  width:100%;
+  /* margin-left:5%; */
+  /* 渐变背景 */
+  /* background: linear-gradient(200deg,#e3c5eb,#a9c1ed); */
+  background: linear-gradient(180deg,#fff,#FFFACD);
+  /* 溢出隐藏 */
+  overflow: hidden;
+}
+
+.header {
+  border-bottom: 4px solid #FCCA00;
+  background-color: #fff;
+  height: 70px;
+  width: 100%;
+}
+
+.title {
+  float: left;
+  margin-left: 170px;
+  font-weight:bold;
+  line-height: 70px;
+  color:#FCCA00;
+  font-size:30px;
+}
+
+.star {
+  float:right;
+  margin-right: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 70px;
+ 
+}
+.login {
+  float:right;
+  margin-right: 200px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 70px;
+}
+.people{
+	margin-top: 80px;
+	width: 1200px;
+	background-color: #FAFAD2;
+	margin-bottom: 40px;
+	border-radius: 10px;
+	margin:50px auto 10px;
+}
+
+.pphoto{
+	margin-top: 25px;
+	float: left;
+	margin-left: 40px;
+	width: 250px;
+	height: 200px;
+}
+
+.pcontent{
+	text-indent: 30px;
+	font-size: 15px;
+	text-align: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 10px;
+	float: left;
+	width: 800px;
+}
+.pcontent h2{
+	margin-bottom: 20px;
+}
+.bj{
+	margin:50px auto 10px;
+	width: 1200px;
+	height: 320px;
+	background-color: #FAFAD2;
+	margin-bottom: 40px;
+	border-radius: 10px;
+}
+
+.bj_photo{
+	margin-top: 45px;
+	float: right;
+	margin-left: 20px;
+	width: 400px;
+	height: 200px;
+}
+
+.bj_photo img{
+	border-radius: 3px;
+}
+
+.bj_content{
+	text-indent: 30px;
+	font-size: 15px;
+	text-align: left;
+	margin-top: 25px;
+	float: left;
+	margin-left: 30px;
+	width: 750px;
+	line-height: 170%;
+}
